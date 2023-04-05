@@ -1,5 +1,5 @@
 // Generic Strings
-const root_url = "https://electro-smith.github.io/Programmer"
+const root_url = "https://ahause23.github.io/Updater"
 
 // New changes involve reading from sources.json to find the 'sources' we should pull from
 // Those sources replace the previously hard coded 'examples.json' file, and should otherwise 
@@ -166,8 +166,8 @@ var app = new Vue({
     </div>
     <b-row align="center" class="app_column">
         <div>
-            <legend>Daisy Web Programmer</legend>
-            <p> Connect to the Daisy - If this is your first time here, follow the steps in Help section below </p>
+            <legend>Colortone Web Updater</legend>
+            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below </p>
             <p><b-button variant="es" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
                 Your device has multiple DFU interfaces. Select one from the list below:
@@ -183,8 +183,8 @@ var app = new Vue({
                     <div class="nested_list">
                         <h2>Usage:</h2>
                         <ol>
-                            <li><p>Connect the Daisy to the Computer</p></li>
-                            <li><p>Enter the system bootloader by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
+                            <li><p>Connect the Board to the Computer</p></li>
+                            <li><p>Enter the systems bootloader by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
                             <li><p>Click the Connect button at the top of the page.</p></li>
                             <li><p>Select, "DFU in FS Mode"</p></li>
                             <li>
