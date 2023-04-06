@@ -224,20 +224,16 @@ var app = new Vue({
         <b-row align="between">
             <b-col align="center" class="app_column">
                 <b-container>
-                    <b-row class="p-2">
-                        <legend>Getting Started? Flash the Blink example!</legend>
-                        <div><b-button variant="es" id="blink"  :disabled="no_device">Flash Blink!</b-button></div>
-                    </b-row>
                     <hr>
                     <b-row class="p-2">
-                        <legend> Or select a platform and a program from the menu below.</legend>
-                        <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
+                        <legend> Select Pedal and Firmware Version from the menu below.</legend>
+                        <b-form-select placeholder="Pedal" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Platform --</b-form-select-option>
                             </template>
                             <option v-for="platform in platforms" :value="platform">{{platform}}</option>
                         </b-form-select>
-                        <b-form-select v-model="sel_example" id="firmwareSelector" required @change="programChanged">
+                        <b-form-select v-model="FirmwareVersion" id="firmwareSelector" required @change="programChanged">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Example --</b-form-select-option>
                             </template>
