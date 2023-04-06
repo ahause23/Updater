@@ -166,7 +166,7 @@ var app = new Vue({
     </div>
     <b-row align="center" class="app_column">
         <div>
-            <legend>Colortone Web Updater</legend>
+            <legend>COLORTONE FIRMWARE UPDATER</legend>
             <p> Connect to the Board - If this is your first time here, follow the steps in Help section below </p>
             <p><b-button variant="es" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
