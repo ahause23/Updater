@@ -183,8 +183,9 @@ var app = new Vue({
                     <div class="nested_list">
                         <h2>Usage:</h2>
                         <ol>
-                            <li><p>Connect the Board to the Computer</p></li>
-                            <li><p>Enter the systems bootloader by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
+                            <li><p>Take off the Back Cover of the Pedal and connect the Board via Mini USB Dshape USB to the Computer</p></li>
+			    <li><p>A Direct connection is recommended - not via a USB hub</p></li>
+                            <li><p>Enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
                             <li><p>Click the Connect button at the top of the page.</p></li>
                             <li><p>Select, "DFU in FS Mode"</p></li>
                             <li>
@@ -227,15 +228,15 @@ var app = new Vue({
                     <hr>
                     <b-row class="p-2">
                         <legend> Select Pedal and Firmware Version from the menu below.</legend>
-                        <b-form-select placeholder="Pedal" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
+                        <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
-                                <b-form-select-option :value="null" disabled>-- Platform --</b-form-select-option>
+                                <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
                             </template>
                             <option v-for="platform in platforms" :value="platform">{{platform}}</option>
                         </b-form-select>
-                        <b-form-select v-model="FirmwareVersion" id="firmwareSelector" required @change="programChanged">
+                        <b-form-select v-model="sel_example" id="firmwareSelector" required @change="programChanged">
                             <template v-slot:first>
-                                <b-form-select-option :value="null" disabled>-- Example --</b-form-select-option>
+                                <b-form-select-option :value="null" disabled>-- Firmware-Version --</b-form-select-option>
                             </template>
                             <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
                         </b-form-select>
