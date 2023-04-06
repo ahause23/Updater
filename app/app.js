@@ -184,12 +184,17 @@ var app = new Vue({
                         <h2>Usage:</h2>
                         <ol>
                             <li>
-			    	<p>Unscrew and remove the back cover of your Pedal and connect the Board via Mini USB DShape USB to your Computer</p>
+			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via Micro USB DShape USB to your Computer</p>
 			    	<ul>
 					<li><p>A direct connection is recommended - not via a USB hub</p></li>
 				</ul>
 			    </li>
-                            <li><p>On the small PCB enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
+                            <li>
+			    	<p>On the small PCB enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p>
+				<ul>
+					<li><p>If the buttons were pressed in the correct order the flashing LED will turn off</p></li>
+				</ul>
+			    </li>
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
 			    	<p>In the PopUp Dialog window select, "DFU in FS Mode" from the list</p>
@@ -204,7 +209,12 @@ var app = new Vue({
                                     <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to load.</p></li>
                                 </ul>
                             </li>
-                            <li><p>Click the Program button, and wait for the progress bar to finish.</p></li>
+                            <li>
+			    	<p>Click the Program button, and wait for the progress bar to finish.</p>
+				<ul>
+			    		<li><p>If the Firmware has been successfully updated the 2nd LED will start flashing again</p></li>
+			    	</ul>
+			    </li>
                             <li><p>Now, if the program does not start immediatley, pressing RESET on the PCB will cause the program to start running.</p></li>
                         </ol>
                         <p>
