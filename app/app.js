@@ -218,9 +218,9 @@ var app = new Vue({
                             <li><p>Now, if the program does not start immediatley, pressing RESET on the PCB will cause the program to start running.</p></li>
                         </ol>
                         <p>
-                            On windows, you may have to update the driver to WinUSB.
+                            On windows, you may have to update the driver to WinUSB to let Chrome connect to the board.
 
-                            To do this, you can download the free software, Zadig.
+                            To do this, you can download the free software, Zadig. Run Zadig and select "list all devices" in the options menu. In the Dropdown select "DFU in FS Mode". In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver". 
                         </p>
                     </div>
                 </b-collapse>
