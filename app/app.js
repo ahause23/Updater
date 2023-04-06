@@ -184,12 +184,12 @@ var app = new Vue({
                         <h2>Usage:</h2>
                         <ol>
                             <li>
-			    	<p>Take off the Back Cover of your Pedal and connect the Board via Mini USB Dshape USB to your Computer</p>
+			    	<p>Unscrew and remove the back cover of your Pedal and connect the Board via Mini USB DShape USB to your Computer</p>
 			    	<ul>
-					<li><p>A Direct connection is recommended - not via a USB hub</p></li>
+					<li><p>A direct connection is recommended - not via a USB hub</p></li>
 				</ul>
 			    </li>
-                            <li><p>Enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
+                            <li><p>On the small PCB enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
 			    	<p>In the PopUp Dialog window select, "DFU in FS Mode" from the list</p>
