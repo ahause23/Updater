@@ -201,16 +201,16 @@ var app = new Vue({
                                 <p>Now do either of the following:</p>
                                 <ul>
                                     <li><p>Select a Pedal and File Update from the drop down menu </p></li>
-                                    <li><p>If you have been sent a custom build, Click the Choose File button, and select the .bin file you would like to flash.</p></li>
+                                    <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to flash.</p></li>
                                 </ul>
                             </li>
-                            <li><p>Click Program, and wait for the progress bar to finish.</p></li>
-                            <li><p>Now, if the program does not start immediatley, pressing RESET on the Daisy will cause the program to start running.</p></li>
+                            <li><p>Click the Program button, and wait for the progress bar to finish.</p></li>
+                            <li><p>Now, if the program does not start immediatley, pressing RESET on the PCB will cause the program to start running.</p></li>
                         </ol>
                         <p>
                             On windows, you may have to update the driver to WinUSB.
 
-                            To do this, you can download the free software, Zadig. Instructions for this can be found on the DaisyWiki in the Windows toolchain instructions page.
+                            To do this, you can download the free software, Zadig.
                         </p>
                     </div>
                 </b-collapse>
@@ -221,9 +221,6 @@ var app = new Vue({
                         <ul>
                             <li>
                                 <p>An up-to-date version of Chrome, at least version 61 or newer</p>
-                            </li>
-                            <li>
-                                <p>A Daisy Seed SOM. (The user-uploaded binary will work for any STM32 chip with a built in DFU bootloader).</p>
                             </li>
                         </ul>
                     </div>
