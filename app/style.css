@@ -23,6 +23,11 @@ text-align: left;
     color: white;
 }
 
+.btn-ct{
+    background-color: #1a90f0;
+    color: white;
+}
+
 .app_body {
     color: #fff;
     background-color: #ffffff;
