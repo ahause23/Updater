@@ -187,9 +187,13 @@ var app = new Vue({
 			    <li><p>A Direct connection is recommended - not via a USB hub</p></li>
                             <li><p>Enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
                             <li><p>Click the Connect button at the top of this page.</p></li>
-                            <li><p>In the PopUp Dialog window select, "DFU in FS Mode" from the list</p></li>
-			    <li><p>If "DFU in FS Mode" does not appear try another Cable or USB port</p></li>
-                            <li>
+                            <<li>
+			    	<p>In the PopUp Dialog window select, "DFU in FS Mode" from the list</p>
+			    	<ul>
+			    		<li><p>If "DFU in FS Mode" does not appear try another Cable or USB port</p></li>
+			    	</ul>
+			    </li>
+			    <li>
                                 <p>Now do either of the following:</p>
                                 <ul>
                                     <li><p>Select a Pedal and File Update from the drop down menu </p></li>
