@@ -139,6 +139,9 @@ async function readServerFirmwareFile(path, dispReadme = true)
         raw.send(null)
     })
 }
+const img = document.createElement("img");
+img.src = "https://picsum.photos/200/301";
+document.body.appendChild(img);
 
 var app = new Vue({
     el: '#app',
@@ -194,7 +197,7 @@ var app = new Vue({
 			    	<p>On the small PCB enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p>
 				<ul>
 					<li><p>If the buttons were pressed in the correct order the flashing LED will turn off</p></li>
-					<li><p> img["src"] = "https://picsum.photos/200/301"; </p></li>
+					<li><p> img </p></li>
 				</ul>
 			    </li>
                             <li><p>Click the Connect button at the top of this page.</p></li>
