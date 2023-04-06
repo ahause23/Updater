@@ -243,7 +243,7 @@ var app = new Vue({
                     </b-row>
                     <hr>
                     <b-row class="p-2">
-                        <legend> Or select a file from your computer</legend>
+                        <legend> Or select a Custom Patch from your computer</legend>
                             <b-form-file
                                 id="firmwareFile"
                                 v-model="firmwareFile"
