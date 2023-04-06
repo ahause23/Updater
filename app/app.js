@@ -210,7 +210,7 @@ var app = new Vue({
 			    <li>
                                 <p>Now do either of the following:</p>
                                 <ul>
-                                    <li><p>Select a Pedal and File Update from the drop down menu </p></li>
+                                    <li><p>Select your Colortone Pedal and Firmware Version from the drop down menu </p></li>
                                     <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to load.</p></li>
                                 </ul>
                             </li>
