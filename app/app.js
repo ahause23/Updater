@@ -190,8 +190,7 @@ var app = new Vue({
                             <li>
                                 <p>Now do either of the following:</p>
                                 <ul>
-                                    <li><p>Flash the blink example</p></li>
-                                    <li><p>Select a platform and an example from the drop down menu (descriptions, diagrams, etc. coming soon)</p></li>
+                                    <li><p>Select a Pedal and File Update from the drop down menu </p></li>
                                     <li><p>Click the Choose File button, and select the .bin file you would like to flash. This can be found in a projects "build" folder.</p></li>
                                 </ul>
                             </li>
