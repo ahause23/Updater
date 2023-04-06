@@ -227,7 +227,7 @@ var app = new Vue({
                 <b-container>
                     <hr>
                     <b-row class="p-2">
-                        <legend> Select Pedal and Firmware Version from the two Drop-Down menus below.</legend>
+                        <legend> Select Pedal and Firmware Version from menus below.</legend>
                         <b-form-select placeholder="Platform" v-model="sel_platform" textContent="Select a platform" id="platformSelector">
                             <template v-slot:first>
                                 <b-form-select-option :value="null" disabled>-- Pedal --</b-form-select-option>
@@ -236,7 +236,7 @@ var app = new Vue({
                         </b-form-select>
                         <b-form-select v-model="sel_example" id="firmwareSelector" required @change="programChanged">
                             <template v-slot:first>
-                                <b-form-select-option :value="null" disabled>-- Firmware-Version --</b-form-select-option>
+                                <b-form-select-option :value="null" disabled>-- Firmware Version --</b-form-select-option>
                             </template>
                             <b-form-select-option v-for="example in platformExamples" v-bind:key="example.name" :value="example">{{example.name}}</b-form-select-option>
                         </b-form-select>
