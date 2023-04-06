@@ -183,8 +183,12 @@ var app = new Vue({
                     <div class="nested_list">
                         <h2>Usage:</h2>
                         <ol>
-                            <li><p>Take off the Back Cover of your Pedal and connect the Board via Mini USB Dshape USB to your Computer</p></li>
-			    <li><p>A Direct connection is recommended - not via a USB hub</p></li>
+                            <li>
+			    	<p>Take off the Back Cover of your Pedal and connect the Board via Mini USB Dshape USB to your Computer</p>
+			    	<ul>
+					<li><p>A Direct connection is recommended - not via a USB hub</p></li>
+				</ul>
+			    </li>
                             <li><p>Enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
                             <li><p>Click the Connect button at the top of this page.</p></li>
                             <li>
