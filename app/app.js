@@ -183,16 +183,17 @@ var app = new Vue({
                     <div class="nested_list">
                         <h2>Usage:</h2>
                         <ol>
-                            <li><p>Take off the Back Cover of the Pedal and connect the Board via Mini USB Dshape USB to the Computer</p></li>
+                            <li><p>Take off the Back Cover of your Pedal and connect the Board via Mini USB Dshape USB to your Computer</p></li>
 			    <li><p>A Direct connection is recommended - not via a USB hub</p></li>
                             <li><p>Enable COLORTONE Firmware Update by holding the BOOT button down, and then pressing, and releasing the RESET button.</p></li>
-                            <li><p>Click the Connect button at the top of the page.</p></li>
-                            <li><p>Select, "DFU in FS Mode"</p></li>
+                            <li><p>Click the Connect button at the top of this page.</p></li>
+                            <li><p>In the PopUp Dialog window select, "DFU in FS Mode" from the list</p></li>
+			    <li><p>If "DFU in FS Mode" does not appear try another Cable or USB port</p></li>
                             <li>
                                 <p>Now do either of the following:</p>
                                 <ul>
                                     <li><p>Select a Pedal and File Update from the drop down menu </p></li>
-                                    <li><p>Click the Choose File button, and select the .bin file you would like to flash. This can be found in a projects "build" folder.</p></li>
+                                    <li><p>If you have been sent a custom build, Click the Choose File button, and select the .bin file you would like to flash.</p></li>
                                 </ul>
                             </li>
                             <li><p>Click Program, and wait for the progress bar to finish.</p></li>
