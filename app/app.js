@@ -201,7 +201,7 @@ var app = new Vue({
                                 <p>Now do either of the following:</p>
                                 <ul>
                                     <li><p>Select a Pedal and File Update from the drop down menu </p></li>
-                                    <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to flash.</p></li>
+                                    <li><p>If you have been sent a custom build, click the Choose File button, and select the .bin file you would like to load.</p></li>
                                 </ul>
                             </li>
                             <li><p>Click the Program button, and wait for the progress bar to finish.</p></li>
