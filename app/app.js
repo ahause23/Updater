@@ -276,7 +276,7 @@ var app = new Vue({
                     </b-row>
 		    <b-row class="p-2">
                         <legend>Test</legend>
-                        <div><b-button variant="es" id="blink"  :disabled="no_device">Test Only</b-button></div>
+                        <div><b-button variant="es" id="blink"  :disabled="no_device">For Testing Only</b-button></div>
                     </b-row>
                 </b-container>
             </b-col>
