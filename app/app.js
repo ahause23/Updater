@@ -171,7 +171,7 @@ var app = new Vue({
     <b-row align="center" class="app_column">
         <div>
             <legend>COLORTONE FIRMWARE UPDATER</legend>
-            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below 1107</p>
+            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below 1113</p>
             <p><b-button variant="ct" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
                 Your device has multiple DFU interfaces. Select one from the list below:
@@ -247,8 +247,6 @@ var app = new Vue({
             <b-col align="center" class="app_column">
                 <b-container>
 		    <b-row class="p-2">
-              //          <legend>Getting Started? Flash the Blink example!</legend>
-              //          <div><b-button variant="es" id="blink"  :disabled="no_device">Flash Blink!</b-button></div>
                     </b-row>
                     <hr>
                     <b-row class="p-2">
