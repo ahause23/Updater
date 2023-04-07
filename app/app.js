@@ -247,8 +247,6 @@ var app = new Vue({
         <b-row align="between">
             <b-col align="center" class="app_column">
                 <b-container>
-		    <b-row class="p-2">
-                    </b-row>
                     <hr>
                     <b-row class="p-2">
                         <legend> Select Pedal and Latest Firmware Version from menus below.</legend>
