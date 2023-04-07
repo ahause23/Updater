@@ -171,7 +171,7 @@ var app = new Vue({
     <b-row align="center" class="app_column">
         <div>
             <legend>COLORTONE FIRMWARE UPDATER</legend>
-            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below 1113</p>
+            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below 1120</p>
             <p><b-button variant="ct" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
                 Your device has multiple DFU interfaces. Select one from the list below:
@@ -188,9 +188,10 @@ var app = new Vue({
                         <h2>Usage:</h2>
                         <ol>
                             <li>
-			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via Micro USB DShape USB to your Computer</p>
+			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via a Micro USB (DShape) to your Computer</p>
 			    	<ul>
 					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
+					<li><p>The orientation of the USB 'D' should have the flat side facing up</p></li>
 				</ul>
 			    </li>
                             <li>
