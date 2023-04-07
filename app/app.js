@@ -190,7 +190,7 @@ var app = new Vue({
                             <li>
 			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via Micro USB DShape USB to your Computer</p>
 			    	<ul>
-					<li><p>A direct connection between Pedals and Computer is recommended - not via a USB hub</p></li>
+					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
 				</ul>
 			    </li>
                             <li>
@@ -434,10 +434,10 @@ var app = new Vue({
       //      })
 
             // grab the bootloader firmware file
-            var srcurl = blink_example.source.bootloader_url
-        	readServerFirmwareFile(srcurl, false).then(buffer => {
-                bootloaderFirmwareFile = buffer
-            })
+      //      var srcurl = blink_example.source.bootloader_url
+      //  	readServerFirmwareFile(srcurl, false).then(buffer => {
+      //          bootloaderFirmwareFile = buffer
+      //      })
 
             //parse the query strings
             var searchParams = new URLSearchParams(getRootUrl().split("?")[1])
