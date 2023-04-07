@@ -1,19 +1,14 @@
-# Programmer
+# Updater
 
-WebUSB programmer for Daisy (and other DFU-compatible chips/boards).
+WebUSB Firmware Updater for ColortonePedals (and other DFU-compatible chips/boards).
 
 Largely based on the webdfu page set up for STM32F103 boards made by devanlai:
 https://github.com/devanlai/webdfu -- https://devanlai.github.io/webdfu
+Forked From Electro-Smith Web Programmer
 
 ## Use
 
 The programmer can flash user-uploaded binary files or select from a pre-compiled list.
-
-To use the programmer, go to this page:
-
-[https://electro-smith.github.io/Programmer/](https://electro-smith.github.io/Programmer/)
-
-and follow the on-page instructions.
 
 ## Local Test
 
