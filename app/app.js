@@ -171,7 +171,7 @@ var app = new Vue({
     <b-row align="center" class="app_column">
         <div>
             <legend>COLORTONE FIRMWARE UPDATER</legend>
-            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below 1105</p>
+            <p> Connect to the Board - If this is your first time here, follow the steps in Help section below 1107</p>
             <p><b-button variant="ct" id="connect"> Connect</b-button></p>
             <dialog id="interfaceDialog">
                 Your device has multiple DFU interfaces. Select one from the list below:
@@ -268,7 +268,7 @@ var app = new Vue({
                     </b-row>
                     <hr>
                     <b-row class="p-2">
-                        <legend> If we have sent you a custom build you can load the firmware from your computer </legend>
+                        <legend> If we have sent you a custom build you can load the firmware here from your computer </legend>
                             <b-form-file
                                 id="firmwareFile"
                                 v-model="firmwareFile"
