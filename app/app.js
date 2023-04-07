@@ -191,11 +191,11 @@ var app = new Vue({
 			    	<p>Unscrew and remove the back cover of your Pedal and connect the PCB Board via a Micro USB (DShape) to your Computer</p>
 			    	<ul>
 					<li><p>A direct connection between Pedal and Computer is recommended - not via a USB hub</p></li>
-					<li><p>The orientation of the USB 'D' should have the flat side facing up</p></li>
+					<li><p>The orientation of the USB 'D' should have the flat side facing up when inserting into the USB socket</p></li>
 				</ul>
 			    </li>
                             <li>
-			    	<p>On the small PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1), and then pressing, and releasing the RESET button(2).</p>
+			    	<p>On the daughter-board PCB enable the COLORTONE Firmware Update by holding the BOOT button down(1), and then pressing, and releasing the RESET button(2).</p>
 				<ul>
 					<li><p>If the buttons were pressed in the correct order the flashing LED will turn off</p></li>
 					<li><p> <img src="img/CTFW-sm.jpg" alt="Pineapple" style="width:170px;height:60px;"> </p></li>
@@ -224,7 +224,7 @@ var app = new Vue({
                             <li><p>Now, if the program does not start immediatley, pressing RESET on the PCB will cause the program to start running.</p></li>
                         </ol>
                         <p>
-                            On windows, you may have to update the driver to WinUSB to let Chrome connect to the board.
+                            For WINDOWS, you may have to update the driver to WinUSB to let Chrome connect to the board.
 
                             To do this, you can download the free software, Zadig. Run Zadig and select "list all devices" in the options menu. In the Dropdown select "DFU in FS Mode". In the field to the right of the green arrow, select "WinUSB" and click "Install Driver"/"Replace Driver". 
                         </p>
